@@ -4,7 +4,7 @@ https://www.youtube.com/watch?v=dXxQ0LR-3Hg   (1:07:29)
 
 Installing dependencies
 -----------------------
-- pip install streamlit pypdf2 langchain python-dotenv faiss-cpu openai huggingface_hub
+- pip install streamlit pypdf2 langchain python-dotenv faiss-cpu openai huggingface_hub tiktoken
 
 Run streamlit application
 -------------------------
