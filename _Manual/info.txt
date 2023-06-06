@@ -5,6 +5,8 @@ https://www.youtube.com/watch?v=dXxQ0LR-3Hg   (1:07:29)
 Installing dependencies
 -----------------------
 - pip install streamlit pypdf2 langchain python-dotenv faiss-cpu openai huggingface_hub tiktoken
+# Install additional dependencies for Instructor - creating embeddings/vector store locally
+- pip install InstructorEmbedding sentence_transformers
 
 Run streamlit application
 -------------------------
@@ -16,8 +18,8 @@ Installing packages using pip and virtual environments
 https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment
 
 - py -m venv env            # create a virtual environment, the second argument is the location to create the virtual environment
-- .\env\Scripts\activate    # Activating a virtual environment will put the virtual environment-specific python and pip executables into your shell’s PATH
-- where python              # You can confirm you’re in the virtual environment by checking the location of your Python interpreter, It should be in the env directory
+- .\env\Scripts\activate    # Activating a virtual environment will put the virtual environment-specific python and pip executables into your shellï¿½s PATH
+- where python              # You can confirm youï¿½re in the virtual environment by checking the location of your Python interpreter, It should be in the env directory
 - deactivate                # If you want to switch projects or otherwise leave your virtual environment
 - py -m pip install <pck>   #  in your virtual environment you can install packages <pck>
 
